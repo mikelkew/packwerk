@@ -58,7 +58,7 @@ module ApplicationFixtureHelper
   end
 
   def fixture_path
-    File.join(TEMP_FIXTURE_DIR, "#{name}-#{Time.now.strftime("%Y%m%d")}")
+    File.join(TEMP_FIXTURE_DIR, "#{name}-#{Time.now.strftime('%Y%m%d')}")
   end
 
   def recursive_merge!(hash, other_hash)
